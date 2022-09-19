@@ -1,0 +1,24 @@
+Implemente uma função que receba uma string que represente uma expressão matemática na notação posfixa. A função deverá retornar o resultado da expressão.
+
+Para a implementação da solução, considere que cada operando tenha valor entre 0 e 9.
+
+Input Format
+
+Deve ser lida uma string que represente uma expressão posfixa.
+
+Constraints
+
+Para a solução do problema, deve ser utilizada uma pilha estática para armazenar os números inteiros.
+
+As pilhas devem ser manipuladas apenas por funções. Por exemplo, o acesso a elementos deve ser feito apenas através da função desempilhar ou que retorne o valor que está no topo.
+
+Output Format
+
+Resultado da expressão.
+
+Sample Input 0
+
+762+4/-3+
+Sample Output 0
+
+8

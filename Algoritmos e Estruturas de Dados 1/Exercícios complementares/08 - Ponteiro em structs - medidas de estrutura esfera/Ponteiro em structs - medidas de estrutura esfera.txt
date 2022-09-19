@@ -1,0 +1,39 @@
+Dada a estrutura abaixo:
+
+typedef struct{
+    float raio, area, volume, diametro;
+}esfera;
+Implemente uma função que receba um ponteiro do tipo esfera e uma variável estática do tipo float que represente um valor de raio. A partir da varável do tipo float, os campos das estrutura devem ser atualizados.
+
+Em seguida, imprima os campos da "esfera".
+
+Para a implementação do exercício proposto considere o seguinte protótipo de função e as equações, onde pi = 3.14:
+
+void atualizar_esfera(esfera *e, float r);
+area = 4 * pi * R²
+
+volume = (3/4) * pi * R³
+
+diametro = 2 * R
+
+Input Format
+
+Na primeira linha da entrada deve ser lido um único float.
+
+Constraints
+
+.
+
+Output Format
+
+Em cada linha deve ser impresso, considerando uma casa decimal, um campo da esfera na seguinte sequência: raio, área, volume e diâmetro.
+
+Sample Input 0
+
+5.0
+Sample Output 0
+
+raio: 5.0
+area: 314.0
+volume: 294.4
+diametro: 10.0

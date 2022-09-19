@@ -1,0 +1,57 @@
+Crie um TAD para números reais, onde i é a parte inteira e f é a parte fracionária, que pode ter valores entre 0 e 99, ou seja, o número real possui apenas duas casas decimais.
+
+Para isso, considere a estrutura e os protótipos de funções abaixo.
+
+typedef struct{
+    int i; // parte inteira
+    int f; // parte fracionária
+}Real;
+
+Real* criar(int i, int f);
+
+// Soma entre dois números reais
+Real* soma(Real *r1, Real *r2);
+
+// Subtração entre dois números reais
+Real* subtracao(Real *r1, Real *r2);
+
+// Arredondar
+int arredondar(Real *r1);
+
+// Imprimir
+void imprimir(Real *r1);
+Observação: não é necessário considerar o arquivo .h, já que no HackerRank não tem como "upar" arquivos .h e .c.
+
+Input Format
+
+Na primeira linha, devem ser lidos dois números inteiros, sendo um a parte inteira e a outra, a fracionária, respectivamente.
+
+Na segunda linha, devem ser lidos dois números inteiros, sendo um a parte inteira e a outra, a fracionária, respectivamente.
+
+Constraints
+
+.
+
+Output Format
+
+Na primeira linha, imprimir o primeiro número real.
+
+Na segunda linha, imprimir o segundo número real.
+
+Na terceira linha, imprimir o resultado da soma entre os dois números reais.
+
+Na quarta linha, imprimir o resultado da subtração entre os dois números reais.
+
+Na quinta linha, imprimir o arredondamento do primeiro e do segundo número real.
+
+Sample Input 0
+
+3 50
+2 5
+Sample Output 0
+
+3.50
+2.05
+5.55
+1.45
+4 2

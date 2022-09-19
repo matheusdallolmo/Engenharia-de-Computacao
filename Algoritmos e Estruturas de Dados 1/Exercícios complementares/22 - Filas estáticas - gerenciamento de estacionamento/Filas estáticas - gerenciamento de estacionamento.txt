@@ -1,0 +1,38 @@
+O Sr. Pupunha, um grande investidor, comprou um terreno e decidiu fazê-lo um estacionamento, o qual tem capacidade para 10 carros. Ao estacionar o automóvel, o cliente recebe um ticket representando por um número inteiro. No entanto, o terreno é muito estreito e, consequentemente, os carros devem ser colocados em fila. Nesse terreno, a entrada é pelos fundos e a saída é pela frente. Caso um cliente precisar sair com o seu carro, os outros automóveis deverão ser retirados e estacionados novamente. Por exemplo, considere a seguinte fila de carros: {1, 2, 3, 4, 5, 6, 7, 8}, onde o primeiro elemento é o veículo que está mais próximo à saída e o último é mais próximo da entrada. Caso o carro 4 for retirado, os veículos 1, 2 e 3 devem estacionados novamente pela entrada do estacionamento. Desse modo, após a remoção do veículo 4, o estacionamento ficaria na seguinte forma: {5, 6, 7, 8, 1, 2, 3}.
+
+Implemente uma função que receba uma fila estática (representação do estacionamento) e um número inteiro (ticket ou id do carro) como parâmetros e faça o gerenciamento de veículos no estacionamento do Pupunha. Enquanto o ticket não for encontrado, o primeiro elemento da fila deverá ser removido e recolocado no final da da fila. Também, deve ser tratado o caso em que o elemento não é encontrado na fila. A função deverá retornar um número inteiro representado a quantidade de veículos que precisaram ser estacionados novamente para que o cliente pudesse retirar o seu carro.
+
+Input Format
+
+Na primeira linha, enquanto -1 não for lido, ler números inteiros. Na segunda linha deve ser lido um número inteiro que será o ticket a ser procurado na fila.
+
+Constraints
+
+O acesso aos elementos da fila deve ser através da função desenfileirar.
+
+Output Format
+
+Na primeira linha, o conteúdo da fila, após a operação de busca, deve ser impresso.
+
+Na segunda linha impresso a quantidade de movimentações que foram necessárias para procurar o ticket.
+
+Na terceira linha deve ser impressa a string "sucesso" caso o ticket for encontrado, ou "falha", caso contrário.
+
+Sample Input 0
+
+1 2 3 4 5 6 7 8 -1
+4
+Sample Output 0
+
+5 6 7 8 1 2 3
+3
+sucesso
+Sample Input 1
+
+1 2 3 4 5 6 -1
+7
+Sample Output 1
+
+1 2 3 4 5 6
+6
+falha

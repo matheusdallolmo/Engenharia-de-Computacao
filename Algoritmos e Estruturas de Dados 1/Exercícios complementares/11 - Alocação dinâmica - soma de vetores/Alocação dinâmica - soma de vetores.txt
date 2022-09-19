@@ -1,0 +1,36 @@
+Implemente uma função que receba dois vetores de números inteiros. A função deverá retornar um vetor resultante da soma dos vetores entrada.
+
+Cabeçalho da solução proposta, onde v1 e v2 são vetores, n1 é o comprimento de v1 e v2 é o comprimento de v2:
+
+int* soma(int *v1, int n1, int *v2, int n2);
+
+Input Format
+
+Deve ser lido um valor inteiro n que representa a quantidade de elementos de um v. Em seguida, devem ser lidos os n elementos do vetor. Repetir o processo para o segundo vetor.
+
+Constraints
+
+.
+
+Output Format
+
+Vetor resultante da soma dos vetores de entrada.
+
+Sample Input 0
+
+5
+1 2 3 4 5
+5
+1 1 1 1 1
+Sample Output 0
+
+2 3 4 5 6
+Sample Input 1
+
+4
+2 3 1 3
+2
+8 6
+Sample Output 1
+
+10 9 1 3

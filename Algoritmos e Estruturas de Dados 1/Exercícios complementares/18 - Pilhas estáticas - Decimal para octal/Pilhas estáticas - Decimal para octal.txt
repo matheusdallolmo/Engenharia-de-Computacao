@@ -1,0 +1,58 @@
+Implemente uma função que receba um número inteiro na base decimal. A função deverá retornar uma pilha com elementos resultantes da conversão da entrada para a base octal.
+
+Para a resolução desse exercício, utilize um TAD do tipo pilha estática para números inteiros, podendo ser o código apresentado em sala de aula.
+
+#define TAM_MAX 100
+
+typedef struct ItemP ItemP;
+
+typedef struct Pilha Pilha;
+
+Pilha* criar_pilha();
+
+int pilha_cheia(Pilha *p);
+
+int pilha_vazia(Pilha *p);
+
+int empilhar(Pilha *p, int chave);
+
+ItemP* desempilhar (Pilha *p);
+
+void imprimir_pilha(Pilha *p);
+
+void liberar_pilha(Pilha *p);
+
+void liberar_itemP(ItemP *item);
+
+int obter_chaveP(ItemP *item);
+
+int obter_posicao_topo(Pilha *p);
+Observação: não é necessário considerar o arquivo .h, já que no HackerRank não tem como "upar" arquivos .h e .c.
+
+Input Format
+
+A primeira linha apresenta um inteiro N, denotando o número de entradas na base decimal que serão testadas. Nas próximas N linhas devem ser lidos os números na base decimal.
+
+Constraints
+
+.
+
+Output Format
+
+A saída deve conter N linhas contendo os resultados da conversão dos números para a base octal.
+
+Sample Input 0
+
+5
+10
+35
+1024
+2021
+88
+Sample Output 0
+
+12
+43
+2000
+3745
+130
