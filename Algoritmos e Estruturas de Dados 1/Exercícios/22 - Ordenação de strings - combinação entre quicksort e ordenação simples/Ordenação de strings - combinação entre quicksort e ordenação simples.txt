@@ -1,0 +1,36 @@
+Implemente uma combinação entre o quicksort e um método de ordenação simples para a ordenação de strings. A função deve, pelo menos, receber três parâmetros: vetor de strings (v[][] ou **v), tamanho do vetor (n) e um número inteiro representando tamanho mínimo (m). Nessa função, enquanto a partição for maior que m, o método de ordenação que deve ser aplicado é quicksort. Caso contrário, um método de ordenação simples (bubblesort, select sort ou insert sort) deve ser utilizado na partição.
+
+Input Format
+
+Na primeira linha deve ser lido o tamanho do vetor. Na segunda linha, deve ser lido um número inteiro que represente o tamanho mínimo de partição. A partir da terceiralinha devem ser lidos os elementos do vetor.
+
+Constraints
+
+.
+
+Output Format
+
+Imprimir o vetor ordenado.
+
+Sample Input 0
+
+8
+1
+joao-paulo
+tereza
+joao-luiz
+vegeta
+ana
+vampeta
+yusuke
+aioria
+Sample Output 0
+
+aioria
+ana
+joao-luiz
+joao-paulo
+tereza
+vampeta
+vegeta
+yusuke
