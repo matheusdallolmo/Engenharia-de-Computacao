@@ -1,0 +1,47 @@
+Implemente uma função que faz o somatório, utilizando divisão e conquista, de todos os elementos de um vetor de números inteiros. Antes da divisão, a partição do vetor analizada deve ser impressa caso a mesma tiver, no mínimo, dois elementos.
+
+Input Format
+
+Na primeira linha deve ser lido o tamanho do vetor.
+
+Na segunda linha deve ser lido o conteúdo do vetor.
+
+Constraints
+
+.
+
+Output Format
+
+Nas primeiras linhas devem ser impressas as partições antes da sua respectiva "divisão".
+
+Na última linha, deve ser impresso o resultado do somatório seguindo o seguinte padrão:
+
+"soma: resultado do somatorio"
+
+Sample Input 0
+
+8
+1 2 3 4 5 6 7 8
+Sample Output 0
+
+1 2 3 4 5 6 7 8
+1 2 3 4
+1 2
+3 4
+5 6 7 8
+5 6
+7 8
+soma: 36
+Sample Input 1
+
+7
+1 2 3 4 5 6 7
+Sample Output 1
+
+1 2 3 4 5 6 7
+1 2 3 4
+1 2
+3 4
+5 6 7
+5 6
+soma: 28

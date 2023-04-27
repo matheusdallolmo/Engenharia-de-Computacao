@@ -1,0 +1,26 @@
+Implemente uma função que receba, pelo menos, uma string como parâmetro. A função deverá procurar, utilizando a estratégia de força-bruta, o maior palíndromo possível dentro da string e imprimí-lo na saída.
+
+Input Format
+
+Leia uma string.
+
+Constraints
+
+.
+
+Output Format
+
+Imprima o maior palíndromo encontrado dentro da string.
+
+Sample Input 0
+
+caaabbaabc
+Sample Output 0
+
+aabbaa
+Sample Input 1
+
+abc
+Sample Output 1
+
+a
