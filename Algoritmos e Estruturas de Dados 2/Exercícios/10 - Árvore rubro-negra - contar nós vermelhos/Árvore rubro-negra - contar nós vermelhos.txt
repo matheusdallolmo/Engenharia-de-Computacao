@@ -1,0 +1,30 @@
+Implemente uma função que receba uma árvore rubro-negra. A função deverá retornar a quantidade de nós vermelhos.
+
+Input Format
+
+Na primeira linha deve ser lido o número inteiro N, que é referente à quantidade de nós da árvore. Em seguida, em cada linha deve ser lido um número inteiro para ser inserido como nó na árvore (fazer isso até que N números sejam lidos).
+
+Constraints
+
+.
+
+Output Format
+
+Imprimir a quantidade de nós vermelhos.
+
+Sample Input 0
+
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Sample Output 0
+
+2
